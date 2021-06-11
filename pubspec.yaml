@@ -1,0 +1,55 @@
+name: school
+description: A new Flutter application.
+publish_to: 'none'
+version: 1.0.0+1
+uses-material-design: true
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^0.5.6+3
+  firebase_auth: ^0.14.0+5
+  firebase_dynamic_links: ^0.5.1
+  cloud_firestore:
+  firebase_messaging: ^4.0.0+3
+  url_launcher:
+  grouped_buttons: ^1.0.3
+  toast:
+  http:
+  intl:
+  firebase_storage:
+  image_picker:
+  flutter_launcher_icons: any
+  animated_text_kit:
+  flutter_calendar_week:
+    git:
+      url: https://github.com/mduccc/flutter_calendar_week.git
+      ref: 1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+
+  assets:
+    - user.png
+    - pic.jpg
+    - school.jpeg
+    - logo1.png
+    - main.png
+
+
+flutter_icons:
+  image_path: "assets/main.png"
+  image_path_ios: "assets/main.png"
+  android: true
+  ios: true
+  adaptive_icon_background: "assets/main.png"
+  adaptive_icon_foreground: "assets/main.png"
+  #  run flutter packages pub run flutter_launcher_icons:main
